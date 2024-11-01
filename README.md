@@ -8,19 +8,16 @@ Mammogram-ImageMask-Dataset-V2.zip</a>, which was derived by us from
 <a href="https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=109379611#109379611bcab02c187174a288dbcbf95d26179e8">
 Categorized Digital Database for Low energy and Subtracted Contrast Enhanced Spectral Mammography images (CDD-CESM)
 </a>
-
 <br>
 <br>
 Please see also our first experiment 
 <a href="https://github.com/sarah-antillia/Image-Segmentation-CDD-CESM-Mammogram">Image-Segmentation-CDD-CESM-Mammogram
 </a>
-
 <br>
 <br>
 On our dataset, please refer to <a href="https://github.com/sarah-antillia/Augmentation-CDD-CESM-Mammogram-Segmentation-Dataset">
 Augmentation-CDD-CESM-Mammogram-Segmentation-Dataset
 </a>
-<br>
 <br>
 <hr>
 <b>Actual Image Segmentation for Images of 512x512 pixels</b><br>
@@ -122,11 +119,7 @@ Mammogram-ImageMask-Dataset-V2.zip</a>
 <b>Mammogram Dataset Statistics</b><br>
 <img src ="./projects/TensorflowSlightlyFlexibleUNet/Mammogram/Mammogram_Statistics.png" width="512" height="auto"><br>
 <br>
-As shown above, the number of images of train and valid datasets is not enough to use for a training set of our segmentation model.
-<!-- 
-therefore we used an online augmentation tool <a href="./src/ImageMaskAugmentor.py">ImageMaskAugmentor.py</a> 
-to improve generalization performance.
--->
+As shown above, the number of images of train and valid datasets is enough to use for a training set of our segmentation model.
 <br>
 
 <br>
