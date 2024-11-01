@@ -1,6 +1,6 @@
 <h2>Tensorflow-Image-Segmentation-CDD-CESM-Mammogram (2024/11/02)</h2>
 
-This is the second experiment of Image Segmentation for Retinal Vessel
+This is the second experiment of Image Segmentation for CDD-CESM-Mammogram
  based on 
 the latest <a href="https://github.com/sarah-antillia/Tensorflow-Image-Segmentation-API">Tensorflow-Image-Segmentation-API</a>, and
 <a href="https://drive.google.com/file/d/19SExQHl6kbCkWm80I1ANy2v1bLRvtqF_/view?usp=sharing">
@@ -121,7 +121,6 @@ Mammogram-ImageMask-Dataset-V2.zip</a>
 <br>
 As shown above, the number of images of train and valid datasets is enough to use for a training set of our segmentation model.
 <br>
-
 <br>
 <b>Train_images_sample</b><br>
 <img src="./projects/TensorflowSlightlyFlexibleUNet/Mammogram/asset/train_images_sample.png" width="1024" height="auto">
